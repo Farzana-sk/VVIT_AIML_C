@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shaik Farzana - AI/ML, Java, Web Development and AWS portfolio">
+  <title>Shaik Farzana | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home">SF<span>.</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">AI/ML • JAVA • AWS • WEB DEVELOPMENT</p>
+        <h1>Hi, I'm <span>Farzana.</span><br>Building ideas into <em>working products.</em></h1>
+        <p class="hero-text">B.Tech AI & ML student passionate about backend development, cloud technologies, and practical AI solutions.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects <span>↗</span></a>
+          <a class="btn secondary" href="resume.pdf" download>Download Resume ↓</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>8.6</strong><span>CGPA</span></div>
+          <div><strong>2+</strong><span>Projects</span></div>
+          <div><strong>5★</strong><span>Java Hackathon</span></div>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb orb1"></div><div class="orb orb2"></div>
+        <div class="code-card">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <div class="code-line"><span class="purple">class</span> <span class="blue">Farzana</span> {</div>
+          <div class="code-line indent"><span class="purple">String</span> focus = <span class="green">"Build"</span>;</div>
+          <div class="code-line indent"><span class="purple">String[]</span> skills = {</div>
+          <div class="code-line indent2"><span class="green">"Java"</span>, <span class="green">"AWS"</span>,</div>
+          <div class="code-line indent2"><span class="green">"AI/ML"</span>, <span class="green">"Web"</span></div>
+          <div class="code-line indent">};</div>
+          <div class="code-line">}</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head reveal"><span>01</span><h2>About Me</h2></div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="quote">“</div>
+          <p>B.Tech Artificial Intelligence & Machine Learning student with an <strong>8.6 CGPA</strong>, skilled in Java, Python, AWS, and web development.</p>
+          <p>Passionate about AI/ML, backend development, and cloud technologies, with experience building full-stack and serverless applications.</p>
+        </div>
+        <div class="about-points reveal">
+          <div><span>01</span><h3>Problem Solver</h3><p>I enjoy turning practical problems into simple, usable software solutions.</p></div>
+          <div><span>02</span><h3>Cloud Curious</h3><p>Hands-on experience with AWS services and event-driven serverless architecture.</p></div>
+          <div><span>03</span><h3>Team Player</h3><p>Strong teamwork, leadership, and presentation skills.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head reveal"><span>02</span><h2>My Toolkit</h2></div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><div class="skill-icon">01</div><h3>Programming</h3><p>Java<br>Python</p></div>
+        <div class="skill-card reveal"><div class="skill-icon">02</div><h3>Web</h3><p>HTML<br>CSS<br>JavaScript</p></div>
+        <div class="skill-card reveal"><div class="skill-icon">03</div><h3>AWS</h3><p>S3 • Lambda<br>DynamoDB • SNS<br>IAM • CloudWatch</p></div>
+        <div class="skill-card reveal"><div class="skill-icon">04</div><h3>Strengths</h3><p>Teamwork & Leadership<br>Presentation Skills<br>Problem Solving</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-head reveal"><span>03</span><h2>Featured Projects</h2></div>
+      <div class="projects">
+        <article class="project-card reveal">
+          <div class="project-top"><span class="project-number">01</span><span class="tag">AI / ML</span></div>
+          <h3>Stock Closing Price<br>Prediction</h3>
+          <p>Machine learning web application that uses historical stock market data to predict closing prices through an interactive interface.</p>
+          <ul><li>Data preprocessing & feature engineering</li><li>Regression-based prediction models</li><li>Deployed publicly on Render</li></ul>
+          <div class="project-footer"><span>Python • ML • Web</span><a href="#" onclick="return false;">Live Project ↗</a></div>
+        </article>
+        <article class="project-card featured reveal">
+          <div class="project-top"><span class="project-number">02</span><span class="tag">AWS</span></div>
+          <h3>Serverless Student<br>Result Alert System</h3>
+          <p>Event-driven serverless application that processes uploaded student-result CSV files and generates personalized email notifications.</p>
+          <ul><li>Automatic result statistics & top performers</li><li>Low-score alert detection</li><li>S3 → Lambda → DynamoDB → SNS workflow</li></ul>
+          <div class="project-footer"><span>AWS • Serverless</span><a href="#" onclick="return false;">GitHub ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-head reveal"><span>04</span><h2>Education</h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="year">2024–27</div><div><h3>Vasireddy Venkatadri Institute of Technology</h3><p>B.Tech in Artificial Intelligence and Machine Learning</p><strong>8.6 CGPA</strong></div></div>
+        <div class="timeline-item reveal"><div class="year">2021–24</div><div><h3>Chalapathi Institute of Technology</h3><p>Diploma in Computer Engineering</p><strong>9.07%</strong></div></div>
+        <div class="timeline-item reveal"><div class="year">2020–21</div><div><h3>Sri Satya Sai High School</h3><p>Secondary School of Education</p><strong>100%</strong></div></div>
+      </div>
+    </section>
+
+    <section class="section achievements">
+      <div class="section-head reveal"><span>05</span><h2>Certificates & Achievements</h2></div>
+      <div class="achievement-grid">
+        <div class="achievement reveal"><span>✦</span><div><h3>AWS DevOps Internship</h3><p>Naipunyam • 2026 • L4G - GenAI</p></div></div>
+        <div class="achievement reveal"><span>★</span><div><h3>5 Stars in Java Hackathon</h3><p>Recognized through participation in a Java hackathon.</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity<br>or an idea? <span>Let's talk.</span></h2>
+        <a class="email" href="mailto:shaikfarzana2801@gmail.com">shaikfarzana2801@gmail.com ↗</a>
+        <div class="contact-details">
+          <span>📍 Tadikonda, Guntur Dist., Andhra Pradesh</span>
+          <span>📞 +91 98481 92694</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Shaik Farzana</span><span>Designed & built with curiosity.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
